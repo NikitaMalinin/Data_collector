@@ -1,0 +1,4 @@
+tabulate==0.8.10
+pandas==1.4.4
+PyQt5==5.15.7
+pyxlsb==1.0.9

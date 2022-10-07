@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
 
         # Main window parameters
         self.resize(1024, 768)  # Measures
-        self.setWindowTitle("EFW Data (demo version)")  # Program title
+        self.setWindowTitle("Data collector (demo version)")  # Program title
 
         self.main_widget = MainWidget()
         self.setCentralWidget(self.main_widget)
@@ -43,8 +43,8 @@ class AboutWindow(QWidget):
         self.setWindowTitle("About")  # Program title
 
         self.labelText = QLabel(
-            'EFW Data (demo version)'
-            + 2*'\n' + 'Program was created to collect input data for fatigue calculations'
+            'Data collector (demo version)'
+            + 2*'\n' + 'Program was created to collect input data for fatigue analysis'
             + 2*'\n' + 'Program output:'
             + '\n' + '- Stress basis' + '\n' + '- Fatigue stress'
             + '\n' + '- Adjustment factors' + '\n' + '- Maintenance tasks'

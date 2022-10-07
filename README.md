@@ -1,4 +1,4 @@
-## EFW_Data
+## Data collector
 Demo version
 
 ![Sample](img/demo.png)
